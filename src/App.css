@@ -1,3 +1,19 @@
+:root {
+    --kyogre: #194E8A;
+    --deepsea: #4b8eda;
+    --miku: #4ECDC4;
+    --latte: #d6c898;
+    --espresso: #685927;
+    --latias: #FF6B6B;
+    --black: #000000;
+    --smoke: #807f7f80;
+    --deepsmoke: #807f7fbb;
+    --lugia: #dddddd;
+    --jade: #640377;
+    --text: #ec98e1;
+    --emerald: #19bb98;
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -12,6 +28,27 @@ a {
 
 a:hover {
     color: aqua;
+}
+
+/* h1, h2, h3, p{
+    margin: auto;
+    margin-bottom: 10px;
+} */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5px auto 0;
+    border: solid 2px;
+    border-radius: 8px;
+    font-size: .9vw;
+    width: 50%;
+    animation: fadeIn 1s;
+    background-color: white;
 }
 
 .name {
@@ -30,28 +67,54 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
     font-family: Helvetica;
     height: 100vh;
     margin: 0 5%;
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 25%;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin: 5px auto 0;
-    border: solid 2px;
-    border-radius: 8px;
-    width: 50%;
     animation: fadeIn 1s;
 }
 
 .nav-link {
     margin: 10px;
 }
+
+
+.contact-window {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 1s;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 3px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.contact-card p{
+    margin: 5px;
+}
+
+#linkedin,
+#email,
+#phone{
+    width: 30px;
+    transition: ease-in-out .2s;
+    margin: 5px;
+}
+
+#linkedin:hover,
+#email:hover,
+#phone:hover{
+    opacity: 0.5;
+}
+
 
 @keyframes fadeIn {
     0% {

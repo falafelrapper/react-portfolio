@@ -6,8 +6,7 @@ export default function PortfolioPage() {
   
     return (
       <>
-        <footer className="profile-footer">
-          {/* Link the user back to the homepage. The to prop is used in place of an href */}
+        <footer className="portfolio-container">
           <Link to="/">← Go Back</Link>
         </footer>
       </>

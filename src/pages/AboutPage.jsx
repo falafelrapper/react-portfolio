@@ -2,6 +2,7 @@
 export default function AboutPage() {
   return (
     <div className="about-me">
+      <h2>About Me</h2>
       <p>
         I am a high school graduate who has spent my schooling 
         focusing on the arts. My primary interests are within the music arts, video games, 
