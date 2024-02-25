@@ -75,6 +75,24 @@ a:hover {
     animation: fadeIn 1s;
 }
 
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Helvetica;
+    height: 100vh;
+    margin: 0 5%;
+    animation: fadeIn 1s;
+}
+
+#resume{
+    height: 80vh;
+    width: 100vh;
+    border-radius: 10px;
+}
+
 .nav-link {
     margin: 10px;
 }
@@ -97,13 +115,13 @@ a:hover {
     margin: auto;
 }
 
-.contact-card p{
+.contact-card p {
     margin: 5px;
 }
 
 #linkedin,
 #email,
-#phone{
+#phone {
     width: 30px;
     transition: ease-in-out .2s;
     margin: 5px;
@@ -111,7 +129,7 @@ a:hover {
 
 #linkedin:hover,
 #email:hover,
-#phone:hover{
+#phone:hover {
     opacity: 0.5;
 }
 
