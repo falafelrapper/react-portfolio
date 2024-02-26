@@ -14,11 +14,11 @@ export default function Nav() {
         <Link key={3} className="nav-link" to="/portfolio">
           Portfolio
         </Link>,
-        <Link key={4} className="nav-link" to="/contact">
-          Contact
-        </Link>,
-        <Link key={5} className="nav-link" to="/resume">
+        <Link key={4} className="nav-link" to="/resume">
           Resume
+        </Link>,
+        <Link key={5} className="nav-link" to="/contact">
+          Contact
         </Link>,
       ]}
     />

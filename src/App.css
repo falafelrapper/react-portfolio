@@ -148,6 +148,10 @@ a:hover {
     opacity: 0.5;
 }
 
+#zach-pic{
+    width: 10%;
+}
+
 
 @keyframes fadeIn {
     0% {
