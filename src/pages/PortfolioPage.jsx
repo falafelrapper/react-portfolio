@@ -16,7 +16,7 @@ export default function PortfolioPage() {
       <div className="portfolio-container">
         <Project 
         projectTitle='Breaking Bread' 
-        projectLink='https://fast-brook-63532-7edb79d80522.herokuapp.com/' 
+        projectLink='https://agile-cove-66310-81bc545fcfa7.herokuapp.com/' 
         projectImg='/images/portfolio/breaking-bread.jpg'
         projectGit='https://github.com/falafelrapper/breaking-bread'/>
         <Project 
