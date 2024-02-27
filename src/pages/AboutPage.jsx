@@ -13,7 +13,7 @@ export default function AboutPage() {
 
   return (
     <div className="about-me">
-      <img id='zach-pic' src="../images/about-me.png" alt="Zachary Roy" />
+      <img id='zach-pic' src="/images/about-me.png" alt="Zachary Roy" />
       <h2>About Me</h2>
       <p>
         I am a high school graduate currently currently enrolled in UCLA edX's Full Stack 
