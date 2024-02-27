@@ -1,14 +1,14 @@
-# Fullstack Development Challenge 18
+# Fullstack Development Challenge 20
 
 ## Table of Contents
 
-- [Welcome](#welcome-to-the-eighteenth-challenge-of-the-ucla-bootcamp)
+- [Welcome](#welcome-to-the-twentieth-challenge-of-the-ucla-bootcamp)
 - [User Story](#user-story)
 - [Accceptance Criteria](#acceptance-criteria)
 - [Completed Challenge](#the-completed-challenge)
 - [Credits](#credits)
 
-## Welcome to the eighteenth Challenge of the UCLA Bootcamp!
+## Welcome to the twentieth Challenge of the UCLA Bootcamp!
 
 In this challenge we were supposed to make a portfolio website, all completely built within React and Netlify. You should be able to view a homepage, an about me page, a portfolio page featuring all of my previous projects, a resume page, and a contact page. To start, we should follow our user story on what we want to solve:
 
