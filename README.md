@@ -10,7 +10,7 @@
 
 ## Welcome to the eighteenth Challenge of the UCLA Bootcamp!
 
-In this challenge we were supposed to build the back end for a social media network. You should be able to make GET, POST, PUT, and DELETE requests to our backend server using Insomnia. To start, we should follow our user story on what we want to solve:
+In this challenge we were supposed to make a portfolio website, all completely built within React and Netlify. You should be able to view a homepage, an about me page, a portfolio page featuring all of my previous projects, a resume page, and a contact page. To start, we should follow our user story on what we want to solve:
 
 ## User Story
 
@@ -52,7 +52,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## The Completed Challenge
 
-After completing the challenge, we should now have a functioning portfolio page that you can view and get in contact with me now. You can view an instructional demo to this backend [here](https://drive.google.com/file/d/1lCtxvnph5ue5My68xT8hyNktDCNrFOJe/view?usp=sharing)!
+After completing the challenge, we should now have a functioning portfolio page that you can view and get in contact with me now. You can view all here [here](https://zachary-roy.netlify.app/)!
 
 ## Credits
 This refactor was completed by Zachary Roy
