@@ -14,6 +14,17 @@ export default function PortfolioPage() {
   return (
     <>
       <div className="portfolio-container">
+        <Project 
+        projectTitle='Breaking Bread' 
+        projectLink='https://fast-brook-63532-7edb79d80522.herokuapp.com/' 
+        projectImg='../images/portfolio/breaking-bread.jpg'
+        projectGit='https://github.com/falafelrapper/breaking-bread'/>
+        <Project 
+        projectTitle='MVC Tech Blog'
+        projectLink='https://fast-brook-63532-7edb79d80522.herokuapp.com/'
+        projectImg='../images/portfolio/tech-blog.png'
+        projectGit='https://github.com/falafelrapper/mvc-tech-blog' />
+        <Project projectTitle='Project 2'></Project>
       </div>
     </>
   );

@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="name">
       <h1>Zachary Roy</h1>
-      <p>Software Engineer</p>
+      <p>Full Stack Developer</p>
     </div>
   );
 }
