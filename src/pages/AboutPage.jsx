@@ -16,18 +16,13 @@ export default function AboutPage() {
       <img id='zach-pic' src="../images/about-me.png" alt="Zachary Roy" />
       <h2>About Me</h2>
       <p>
-        I am a high school graduate who has spent my schooling
-        focusing on the arts. My primary interests are within the music arts, video games,
-        and Japanese culture. For music, this  includes drumming and percussion, playing
-        guitar/bass, compositions and singing. In my free time I like to work with computers a
-        lot, this can include things such as building them, modding programs such as video
-        games, or studying the ins and outs of each part that goes into it. Because of this,
-        I have an extensive knowledge on how computers work and how to troubleshoot and fix
-        problems quickly. I enjoy meeting and communicating with people and I am always eager
-        for a job that can offer this opportunity. As an organized individual, I am capable of
-        staying focused on various tasks and always look forward to opportunities that new
-        challenges bring.
+        I am a high school graduate currently currently enrolled in UCLA edX's Full Stack 
+        Development Boot Camp who is passionate about upcoming technologies and what 
+        computers can do as an aid to society. When I am not programming or studying computer
+        science, you can catch me playing drums for acts such as Meishi Smile or Pacific Palace.
+        Working together, we can get your next application deployed and ready for the world to see.
       </p>
+      <p>All references are available upon request.</p>
     </div>
   );
 }

@@ -31,6 +31,7 @@ a:hover {
     color: aqua;
 }
 
+
 /* h1, h2, h3, p{
     margin: auto;
     margin-bottom: 10px;
@@ -44,6 +45,7 @@ a:hover {
     position: fixed;
     left: 47%;
     bottom: 0;
+    animation: fadeIn 1s;
 }
 
 .navbar {
@@ -83,7 +85,7 @@ a:hover {
     text-align: center;
     font-family: Helvetica;
     height: 100vh;
-    margin: 0 5%;
+    margin: 0 15%;
     animation: fadeIn 1s;
 }
 
@@ -137,8 +139,8 @@ a:hover {
 }
 
 .project-card:hover img{
-    filter: blur(1px);
-    opacity: 1;
+    filter: blur(7px);
+    opacity: .4;
 }
 
 .project-links{
@@ -169,7 +171,7 @@ a:hover {
 }
 
 .project-card:hover .project-links #github-repo:hover{
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .contact-window {
@@ -177,6 +179,7 @@ a:hover {
     display: flex;
     justify-content: center;
     animation: fadeIn 1s;
+    flex-direction: column;
 }
 
 .contact-card {
@@ -186,11 +189,58 @@ a:hover {
     flex-direction: column;
     border: solid 3px;
     border-radius: 8px;
-    margin: auto;
+    margin: 20px auto;
+    background-color: white;
 }
 
 .contact-card p {
     margin: 5px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button{
+    margin: 5px;
+}
+
+.contact-form textarea{
+    width: 15vw;
+    height: 20vh;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 3px;
+    border-radius: 8px;
+    margin: 20px auto;
+    background-color: white;
+    width: 20vw;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    outline: none;
+    color: white;
+    background-color: black;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
 }
 
 #linkedin,
@@ -212,9 +262,12 @@ a:hover {
 }
 
 #zach-pic {
-    width: 10%;
+    width: 15%;
 }
 
+.error {
+    color: red;
+  }
 
 @keyframes fadeIn {
     0% {
