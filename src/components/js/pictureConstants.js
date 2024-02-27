@@ -7,5 +7,6 @@ export const imageUrls = [
     "../images/phone.png",
     '../images/portfolio/breaking-bread.jpg',
     '../images/portfolio/tech-blog.png',
-    '../images/portfolio/code-quiz.png'
+    '../images/portfolio/code-quiz.png',
+    '../images/portfolio/movie-recommender.png'
 ];
